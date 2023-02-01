@@ -15,7 +15,7 @@
 - create `DELETE` method and return/ response: `delete user by id`
 
 ## Screenshots
-
+making it public
 1. get method
    ![getMethod](./screenshot/getMethod.png)
 2. post method ![postMethod](./screenshot/postMethod.png)

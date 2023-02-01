@@ -6,14 +6,17 @@ const requestListener = function (req: IncomingMessage,res:ServerResponse){
     if (req.method === "GET" && req.url === "/users") {
         res.write("user list");
         res.end();
+        return;
     }
     if (req.method === "POST" && req.url === "/users") {
         res.write("create a new product");
         res.end();
+        return;
     }
     if (req.method === "DELETE" && req.url === "/users/1") {
         res.write("delete user by id");
         res.end();
+        return;
     }
     res.writeHead(404);
     res.end("No router found!");
