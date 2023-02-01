@@ -20,3 +20,4 @@ making it public
    ![getMethod](./screenshot/getMethod.png)
 2. post method ![postMethod](./screenshot/postMethod.png)
 3. delete method ![deleteMethod](./screenshot//deleteUser.png)
+this is from public
